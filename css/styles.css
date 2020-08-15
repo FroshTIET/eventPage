@@ -60,6 +60,10 @@ p {
   /* background-color: #0b0c10; */
 }
 
+html{
+  
+}
+
 h1,
 h2,
 h3,
@@ -116,6 +120,7 @@ html {
   height: 100%;
   position: relative;
   text-rendering: optimizeLegibility;
+  cursor: url('../images/Asset.png'), auto;
 }
 
 body {
@@ -383,7 +388,7 @@ img.pull-right {
 }
 
 .bg{
-  background: url('../images/3403042.png');
+  background: url('../images/Annotation 2020-08-15 215735.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
