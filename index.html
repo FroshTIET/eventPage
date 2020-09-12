@@ -37,6 +37,7 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
    <link rel="stylesheet" href="css/styles.css">
    <link rel="icon" href="./images/favicon.png">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
 
    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600&display=swap" rel="stylesheet">
 
@@ -62,12 +63,8 @@
    <nav class="p-3">
       <a class="navbar-brand" href="/"><img src="./images/FROSH2020_logo_white.png" alt=""></a>
 
-      <!-- <div class="navbar-nav  ml-auto">
-                  <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-
-                </div> -->
-
    </nav>
+   <i class="fas fa-chevron-down"></i>
    <div class="bg"></div>
    <div class="flex-container">
 
@@ -165,11 +162,8 @@
                <div class="col-lg-12">
                   <div class="tab-content schedule-tabs schedule-tabs-item">
                      <div role="tabpanel" class="tab-pane active" id="date1">
-                        <div class="row">
-
-                           
-                           
-                           <div class="col-lg-6">
+                        <div class="row">                   
+                           <div class="col-lg-6 order-2 order-lg-0">
                               <div class="schedule-listing-item schedule-left" style="padding: 60px 25px 20px 0;">
                                  <!-- <img class="schedule-slot-speakers" src="images/speakers/speaker1.jpg" alt=""> -->
                                  <span class="schedule-slot-time">10.15 - 10.45 AM</span>
@@ -186,7 +180,7 @@
                                  </p>
                               </div>
                            </div><!-- col end-->
-                           <div class="col-lg-6">
+                           <div class="col-lg-6 order-1 order-lg-0">
                               <div class="schedule-listing-item schedule-right" style="padding: 60px 20px 0px 25px;">
                                  <!-- <img class="schedule-slot-speakers" src="images/speakers/speaker2.jpg" alt=""> -->
                                  <span class="schedule-slot-time">10.00 - 10.15 AM</span>
@@ -207,7 +201,7 @@
                                  </p>
                               </div>
                            </div><!-- col end-->
-                           <div class="col-lg-6">
+                           <div class="col-lg-6 order-4 order-lg-0">
                               <div class="schedule-listing-item schedule-left" style="padding: 60px 25px 20px 0;">
                                  <!-- <img class="schedule-slot-speakers" src="images/speakers/speaker3.jpg" alt=""> -->
                                  <span class="schedule-slot-time">1.00 - 03.00 PM</span>
@@ -224,7 +218,7 @@
                                  </p>
                               </div>
                            </div><!-- col end-->
-                           <div class="col-lg-6">
+                           <div class="col-lg-6 order-3 order-lg-0">
                               <div class="schedule-listing-item schedule-right" style="padding: 60px 20px 0px 25px;">
                                  <!-- <img class="schedule-slot-speakers" src="images/speakers/speaker4.jpg" alt=""> -->
                                  <span class="schedule-slot-time">11.00 - 01.00 PM</span>
@@ -243,7 +237,7 @@
                               </div>
                            </div><!-- col end-->
 
-                           <div class="col-lg-6">
+                           <div class="col-lg-6 order-6 order-lg-0">
                               <div class="schedule-listing-item schedule-left" style="padding: 60px 25px 20px 0;">
                                  <!-- <img class="schedule-slot-speakers" src="images/speakers/speaker3.jpg" alt=""> -->
                                  <span class="schedule-slot-time">04.00 - 05.00 PM</span>
@@ -262,7 +256,7 @@
                               </div>
                            </div><!-- col end-->
 
-                           <div class="col-lg-6">
+                           <div class="col-lg-6 order-5 order-lg-0">
                               <div class="schedule-listing-item schedule-right" style="padding: 60px 20px 0px 25px;">
                                  <!-- <img class="schedule-slot-speakers" src="images/speakers/speaker4.jpg" alt=""> -->
                                  <span class="schedule-slot-time">03.00 -04.00 PM</span>
@@ -296,7 +290,7 @@
 
                      <div role="tabpanel" class="tab-pane" id="date2">
                         <div class="row">
-                           <div class="col-lg-6">
+                           <div class="col-lg-6 order-2 order-lg-0">
                               <div class="schedule-listing-item schedule-left" style="padding: 60px 25px 20px 0;">
                                  <!-- <img class="schedule-slot-speakers" src="images/speakers/speaker5.jpg" alt=""> -->
                                  <span class="schedule-slot-time">10.45 - 11.30 AM </span>
@@ -313,7 +307,7 @@
                                  </p>
                               </div>
                            </div><!-- col end-->
-                           <div class="col-lg-6">
+                           <div class="col-lg-6 order-1 order-lg-0">
                               <div class="schedule-listing-item schedule-right" style="padding: 60px 20px 0px 25px;">
                                  <!-- <img class="schedule-slot-speakers" src="images/speakers/speaker6.jpg" alt=""> -->
                                  <span class="schedule-slot-time">10.00 - 10.45 AM</span>
@@ -330,7 +324,7 @@
                                  </p>
                               </div>
                            </div><!-- col end-->
-                           <div class="col-lg-6">
+                           <div class="col-lg-6 order-4 order-lg-0">
                               <div class="schedule-listing-item schedule-left" style="padding: 60px 25px 20px 0;">
                                  <!-- <img class="schedule-slot-speakers" src="images/speakers/speaker7.jpg" alt=""> -->
                                  <span class="schedule-slot-time">08:00 PM - 09:30 PM</span>
@@ -347,7 +341,7 @@
                                  </p>
                               </div>
                            </div><!-- col end-->
-                           <div class="col-lg-6">
+                           <div class="col-lg-6 order-3 order-lg-0">
                               <div class="schedule-listing-item schedule-right" style="padding: 60px 20px 0px 25px;">
                                  <!-- <img class="schedule-slot-speakers" src="images/speakers/speaker8.jpg" alt=""> -->
                                  <span class="schedule-slot-time">11:45 AM - 02:00 PM</span>
@@ -391,7 +385,7 @@
 
                      <div role="tabpanel" class="tab-pane" id="date3">
                         <div class="row">
-                           <div class="col-lg-6">
+                           <div class="col-lg-6 order-2 order-lg-0">
                               <div class="schedule-listing-item schedule-left" style="padding: 60px 25px 20px 0;">
                                  <!-- <img class="schedule-slot-speakers" src="images/speakers/speaker1.jpg" alt=""> -->
                                  <span class="schedule-slot-time">10.30 - 11.00 AM</span>
@@ -408,7 +402,7 @@
                                  </p>
                               </div>
                            </div><!-- col end-->
-                           <div class="col-lg-6">
+                           <div class="col-lg-6 order-1 order-lg-0">
                               <div class="schedule-listing-item schedule-right" style="padding: 60px 20px 0px 25px;">
                                  <!-- <img class="schedule-slot-speakers" src="images/speakers/speaker2.jpg" alt=""> -->
                                  <span class="schedule-slot-time">10:00 AM - 10:30 AM</span>
@@ -427,7 +421,7 @@
                                  </p>
                               </div>
                            </div><!-- col end-->
-                           <div class="col-lg-6">
+                           <div class="col-lg-6 order-4 order-lg-0">
                               <div class="schedule-listing-item schedule-left" style="padding: 60px 25px 20px 0;">
                                  <!-- <img class="schedule-slot-speakers" src="images/speakers/speaker3.jpg" alt=""> -->
                                  <span class="schedule-slot-time">12:30 PM - 02:30 PM </span>
@@ -444,7 +438,7 @@
                                  </p>
                               </div>
                            </div><!-- col end-->
-                           <div class="col-lg-6">
+                           <div class="col-lg-6 order-3 order-lg-0">
                               <div class="schedule-listing-item schedule-right" style="padding: 60px 20px 0px 25px;">
                                  <!-- <img class="schedule-slot-speakers" src="images/speakers/speaker4.jpg" alt=""> -->
                                  <span class="schedule-slot-time">11:15 AM - 12:30 PM</span>
@@ -464,7 +458,7 @@
                                  </p>
                               </div>
                            </div><!-- col end-->
-                           <div class="col-lg-6">
+                           <div class="col-lg-6 order-6 order-lg-0">
                               <div class="schedule-listing-item schedule-left" style="padding: 60px 25px 20px 0;">
                                  <!-- <img class="schedule-slot-speakers" src="images/speakers/speaker3.jpg" alt=""> -->
                                  <span class="schedule-slot-time">08:00 PM - 09:30 PM </span>
@@ -481,7 +475,7 @@
                                  </p>
                               </div>
                            </div><!-- col end-->
-                           <div class="col-lg-6">
+                           <div class="col-lg-6 order-5 order-lg-0">
                               <div class="schedule-listing-item schedule-right" style="padding: 60px 20px 0px 25px;">
                                  <!-- <img class="schedule-slot-speakers" src="images/speakers/speaker4.jpg" alt=""> -->
                                  <span class="schedule-slot-time">02:30 PM - 05:00 PM</span>
@@ -519,7 +513,7 @@
 
                      <div role="tabpanel" class="tab-pane" id="date4">
                         <div class="row">
-                           <div class="col-lg-6">
+                           <div class="col-lg-6 order-2 order-lg-0">
                               <div class="schedule-listing-item schedule-left" style="padding: 60px 25px 20px 0;">
                                  <!-- <img class="schedule-slot-speakers" src="images/speakers/speaker5.jpg" alt=""> -->
                                  <span class="schedule-slot-time">07:30 PM - 08:30 PM</span>
@@ -541,7 +535,7 @@
                                  </p>
                               </div>
                            </div><!-- col end-->
-                           <div class="col-lg-6">
+                           <div class="col-lg-6 order-1 order-lg-0">
                               <div class="schedule-listing-item schedule-right" style="padding: 60px 20px 0px 25px;">
                               <!-- </img class="schedule-slot-speakers" src="images/speakers/speaker6.jpg" alt=""> -->
                                  <span class="schedule-slot-time">09:00 AM - 11:30 AM </span>
@@ -558,10 +552,10 @@
                                  </p>
                               </div>
                            </div><!-- col end-->
-                           <div class="col-lg-6">
+                           <div class="col-lg-6 order-4 order-lg-0">
                              
                            </div><!-- col end-->
-                           <div class="col-lg-6">
+                           <div class="col-lg-6 order-3 order-lg-0">
                               <div class="schedule-listing-item schedule-right" style="padding: 60px 20px 0px 25px;">
                                  <!-- <img class="schedule-slot-speakers" src="images/speakers/speaker8.jpg" alt=""> -->
                                  <span class="schedule-slot-time">08:30 PM - 10:00 PM</span>
@@ -600,7 +594,7 @@
 
                      <div role="tabpanel" class="tab-pane" id="date5">
                         <div class="row">
-                           <div class="col-lg-6">
+                           <div class="col-lg-6 order-2 order-lg-0">
                               <div class="schedule-listing-item schedule-left" style="padding: 60px 25px 20px 0;">
                                  <!-- <img class="schedule-slot-speakers" src="images/speakers/speaker5.jpg" alt=""> -->
                                  <span class="schedule-slot-time">11:45 AM - 01:00 PM</span>
@@ -622,7 +616,7 @@
                                  </p>
                               </div>
                            </div><!-- col end-->
-                           <div class="col-lg-6">
+                           <div class="col-lg-6 order-1 order-lg-0">
                               <div class="schedule-listing-item schedule-right" style="padding: 60px 20px 0px 25px;">
                                  <!-- <img class="schedule-slot-speakers" src="images/speakers/speaker6.jpg" alt=""> -->
                                  <span class="schedule-slot-time">09:00 AM - 11:30 AM</span>
@@ -639,7 +633,7 @@
                                  </p>
                               </div>
                            </div><!-- col end-->
-                           <div class="col-lg-6">
+                           <div class="col-lg-6 order-4 order-lg-0">
                               <div class="schedule-listing-item schedule-left" style="padding: 60px 25px 20px 0;">
                                  <!-- <img class="schedule-slot-speakers" src="images/speakers/speaker7.jpg" alt=""> -->
                                  <span class="schedule-slot-time">05:00 PM - 07:00 PM </span>
@@ -656,7 +650,7 @@
                                  </p>
                               </div>
                            </div><!-- col end-->
-                           <div class="col-lg-6">
+                           <div class="col-lg-6 order-3 order-lg-0">
                               <div class="schedule-listing-item schedule-right" style="padding: 60px 20px 0px 25px;">
                                  <!-- <img class="schedule-slot-speakers" src="images/speakers/speaker8.jpg" alt=""> -->
                                  <span class="schedule-slot-time">01:00 PM – 02:00 PM</span>
@@ -691,7 +685,7 @@
 
                      <div role="tabpanel" class="tab-pane" id="date6">
                         <div class="row">
-                           <div class="col-lg-6">
+                           <div class="col-lg-6 order-2 order-lg-0">
                               <div class="schedule-listing-item schedule-left" style="padding: 60px 25px 20px 0;">
                                  <!-- <img class="schedule-slot-speakers" src="images/speakers/speaker5.jpg" alt=""> -->
                                  <span class="schedule-slot-time">12:00 PM - 02:00 PM</span>
@@ -708,7 +702,7 @@
                                  </p>
                               </div>
                            </div><!-- col end-->
-                           <div class="col-lg-6">
+                           <div class="col-lg-6 order-1 order-lg-0">
                               <div class="schedule-listing-item schedule-right" style="padding: 60px 20px 0px 25px;">
                                  <!-- <img class="schedule-slot-speakers" src="images/speakers/speaker6.jpg" alt=""> -->
                                  <span class="schedule-slot-time">09:00 AM - 11:45 PM </span>
@@ -725,10 +719,10 @@
                                  </p>
                               </div>
                            </div><!-- col end-->
-                           <div class="col-lg-6">
+                           <div class="col-lg-6 order-4 order-lg-0">
                              
                            </div><!-- col end-->
-                           <div class="col-lg-6">
+                           <div class="col-lg-6 order-3 order-lg-0">
                               <div class="schedule-listing-item schedule-right" style="padding: 60px 20px 0px 25px;">
                                  <!-- <img class="schedule-slot-speakers" src="images/speakers/speaker8.jpg" alt=""> -->
                                  <span class="schedule-slot-time">06:00 PM - 07:00 PM</span>
@@ -750,7 +744,6 @@
                            <a href="#" class="btn">More Details</a>
                         </div> -->
                      </div>
-
 
 
 
