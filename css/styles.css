@@ -3185,10 +3185,15 @@ img.pull-right {
   );
 }
 
+#page-banner-area {
+  padding-bottom: -500px;
+}
 /* Page banner area */
 .page-banner-area {
+  
   position: relative;
-  min-height: 400px;
+  /* min-height: 400px; */
+  padding-top: 400px;
   color: #fff;
   background-position: 50% 50%;
   -webkit-background-size: cover;
@@ -4478,7 +4483,6 @@ textarea {
 @media(max-width: 700px){
   
   .swiper-container {
-
     height: 100vh;
     width: 100vw; 
     padding: 0 !important;
