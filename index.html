@@ -40,6 +40,8 @@
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
 
    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 
    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -62,27 +64,28 @@
 <body>
    <nav class="p-3">
       <a class="navbar-brand" href="/"><img src="./images/FROSH2020_logo_white.png" alt=""></a>
-
    </nav>
-   <i class="fas fa-chevron-down"></i>
+   <!-- <i class="fas fa-chevron-down"></i> -->
    <div class="bg"></div>
-   <div class="flex-container">
-
-      <div class="flex-slide home">
-         <div class="flex-title"></div>
-
-      </div>
-      <div class="flex-slide about">
-         <div class="flex-title"></div>
-
-      </div>
-      <div class="flex-slide work">
-         <div class="flex-title"></div>
-
-      </div>
-      <div class="flex-slide contact">
-         <div class="flex-title"></div>
-      </div>
+   <div class="swiper-div">
+      <div class="swiper-container">
+         <!-- Additional required wrapper -->
+         <div class="swiper-wrapper">
+             <!-- Slides -->
+             <div class="swiper-slide text-center"><img src="./assets/Blockchain.jpeg" alt=""></div>
+             <div class="swiper-slide text-center"><img src="./assets/ESPORTSMANIA.jpg" alt=""></div>
+             <div class="swiper-slide text-center"><img src="./assets/HouseOfFrosh.jpg" alt=""></div>
+         </div>
+         <!-- If we need pagination -->
+         <div class="swiper-pagination"></div>
+     
+         <!-- If we need navigation buttons -->
+         <div class="swiper-button-prev"></div>
+         <div class="swiper-button-next"></div>
+     
+         <!-- If we need scrollbar -->
+         <!-- <div class="swiper-scrollbar"></div> -->
+     </div>
    </div>
    <div id="page-banner-area" class="page-banner-area" style="background-image:url(images/hero_area/banner_bg.jpg)">
       <!-- Subpage title start -->
@@ -805,7 +808,9 @@
 
 
 
-
+   <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+   <script src="./swiper_config.js"></script>
    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"></script>
